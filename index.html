@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Jeerasuk Plunglouang</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: Arial, "Noto Sans Thai", sans-serif;
+            background: #f2f2f2;
+            color: #333;
+            line-height: 1.7;
+        }
+        .resume {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #fff;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+        .header {
+            background: #222;
+            color: white;
+            padding: 40px;
+        }
+        .header h1 { font-size: 32px; margin-bottom: 5px; }
+        .header .name-th { font-size: 18px; color: #ddd; }
+        .header .student { font-size: 14px; color: #bbb; margin-top: 8px; }
+        .content { display: grid; grid-template-columns: 32% 68%; }
+        .sidebar { background: #f5f5f5; padding: 30px; }
+        .main { padding: 30px 40px; }
+        .section { margin-bottom: 28px; }
+        .section h2 {
+            font-size: 18px;
+            color: #222;
+            border-bottom: 2px solid #222;
+            padding-bottom: 6px;
+            margin-bottom: 12px;
+        }
+        .section p { font-size: 14px; }
+        .contact-item { margin-bottom: 15px; }
+        .contact-item strong { display: block; font-size: 14px; color: #222; }
+        .contact-item span { font-size: 13px; color: #555; }
+        .education { margin-bottom: 20px; }
+        .education h3 { font-size: 16px; margin-bottom: 4px; }
+        .education p { font-size: 14px; }
+        @media (max-width: 700px) {
+            .resume { margin: 0; }
+            .header { padding: 30px 25px; }
+            .header h1 { font-size: 26px; }
+            .content { grid-template-columns: 1fr; }
+            .sidebar, .main { padding: 25px; }
+        }
+        @media print {
+            body { background: white; }
+            .resume { margin: 0; box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <div class="resume">
+        <header class="header">
+            <div>
+                <h1>Jeerasuk Plunglouang</h1>
+                <div class="name-th">กานต์ จีรศักดิ์ ผึ้งหลวง</div>
+                <div class="student">นักศึกษาคณะบัญชีบัณฑิต</div>
+            </div>
+        </header>
+
+        <div class="content">
+            <aside class="sidebar">
+                <section class="section">
+                    <h2>ข้อมูลส่วนตัว</h2>
+                    <div class="contact-item">
+                        <strong>ชื่อ</strong>
+                        <span>Jeerasuk Plunglouang</span>
+                    </div>
+                    <div class="contact-item">
+                        <strong>ที่อยู่</strong>
+                        <span>
+                            หอพักนิภาภัทร เลขที่ 110/21<br>
+                            ซอยหอการค้าไทย แยก 10<br>
+                            ถนนวิภาวดีรังสิต<br>
+                            แขวงรัชดาภิเษก
+                        </span>
+                    </div>
+                </section>
+
+                <section class="section">
+                    <h2>การศึกษา</h2>
+                    <div class="education">
+                        <h3>มหาวิทยาลัยหอการค้าไทย</h3>
+                        <p>คณะบัญชีบัณฑิต</p>
+                        <p>กำลังศึกษาอยู่</p>
+                    </div>
+                </section>
+            </aside>
+
+            <main class="main">
+                <section class="section">
+                    <h2>แนะนำตัว</h2>
+                    <p>สวัสดีครับ ผมชื่อ กานต์ จีรศักดิ์ ผึ้งหลวง</p>
+                </section>
+
+                <section class="section">
+                    <h2>ประสบการณ์การทำงาน</h2>
+                    <p>มีประสบการณ์ในการทำบัญชีและดูแลธุรกิจครอบครัว</p>
+                </section>
+
+                <section class="section">
+                    <h2>การศึกษา</h2>
+                    <div class="education">
+                        <h3>มหาวิทยาลัยหอการค้าไทย</h3>
+                        <p>คณะบัญชีบัณฑิต</p>
+                        <p>ปัจจุบันกำลังศึกษาอยู่</p>
+                    </div>
+                </section>
+
+                <section class="section">
+                    <h2>ความสนใจ</h2>
+                    <p>
+                        มีความสนใจด้านบัญชีธุรกิจ และสนใจเรียนรู้เกี่ยวกับ
+                        การบริหารจัดการทางธุรกิจ รวมถึงการนำความรู้ด้านบัญชี
+                        มาประยุกต์ใช้ในการทำงานและการดำเนินธุรกิจ
+                        นอกจากนี้ยังเป็นคนที่ชอบเรียนรู้สิ่งใหม่ ๆ
+                        และพัฒนาทักษะของตนเองอยู่เสมอ
+                    </p>
+                </section>
+            </main>
+        </div>
+    </div>
+</body>
+</html>
